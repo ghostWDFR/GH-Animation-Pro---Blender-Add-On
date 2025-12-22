@@ -4,6 +4,10 @@ GH Animation Pro is a production-oriented Blender toolkit providing advanced IK 
 
 ---
 
+![GH Animation Pro panel](docs/IMAGES/GH_Animation_PRO.png)
+
+---
+
 > ### [Documentation license](LICENSE)
 > You may redistribute this documentation **unmodified** with proper attribution to the original author.  
 > Modifications, translations, and derivative works are **not** allowed without explicit permission.
