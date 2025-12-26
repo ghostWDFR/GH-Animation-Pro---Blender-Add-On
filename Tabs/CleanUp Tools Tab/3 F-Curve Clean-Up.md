@@ -3,6 +3,12 @@
 
 # F-Curve Cleanup
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/F_Curve_CleanUp.png)
+
+</div>
+
 **F-Curve Cleanup** simplifies your animation curves while keeping the motion visually intact. It uses a tolerance value (Threshold) to remove redundant keys and rebuild cleaner Bezier curves, making your graph easier to read, edit, and ready for production. You can either clean entire channels at once or focus on a specific segment of selected keys when you only need to tidy up part of the motion.
 
 # Step by Step

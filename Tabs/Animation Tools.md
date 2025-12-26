@@ -2,6 +2,12 @@
 
 # Animation Tools
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/Animation%20Tools.png)
+
+</div>
+
 This tab contains:
 
 - IK Lock Points

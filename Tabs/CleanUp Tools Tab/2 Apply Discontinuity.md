@@ -2,6 +2,12 @@
 
 # Apply Discontinuity (Euler)
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/Appy_Discontinuity.png)
+
+</div>
+
 Apply Discontinuity (Euler) scans the selected animated bones or objects for rotation issues and fixes visible flips or pops in their motion. Use it when you see sudden 360° twists after editing keys, baking constraints, or retargeting, and want your rotations to play back smoothly without manually tweaking every F-Curve.
 
 # Step by Step

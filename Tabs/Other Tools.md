@@ -1,8 +1,12 @@
 [Return to Main Page](../README.md)
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/Other_Tools.png)
+
+</div>
 
 # Other Tools Tab
-
 
 This tab contain options:
 

@@ -52,6 +52,12 @@
 
 <h2>Main Tabs</h2>
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/GH_Animation_PRO.png)
+
+</div>
+
 <p>In the <strong>Add-On</strong> menu, you can find three main tabs:</p>
 
 - [Animation Tools](/Tabs/Animation%20Tools.md)

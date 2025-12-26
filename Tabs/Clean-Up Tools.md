@@ -2,6 +2,12 @@
 
 # Clean-Up Tools Tab
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/CleanUp_Tools_Tab.png)
+
+</div>
+
 This tab contain options:
 
 - [Clean-Up NLA (Selected)](./CleanUp%20Tools%20Tab/1%20Clean-Up%20NLA.md)
