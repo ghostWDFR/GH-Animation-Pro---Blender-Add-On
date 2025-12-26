@@ -6,9 +6,9 @@
 
 This tab contain options:
 
-- [Force Constraint Update](./Other_Tools/1%20Force%20Constraint%20Update.md)
-- [Baking Tab](./Other_Tools/2%20Baking%20Tab.md)
-- [Quick Frame Range](./Other_Tools/3%20Quick%20Frame%20Range.md)
+- [Force Constraint Update](./Other%20Tools%20Tab/1%20Force%20Constraint%20Update.md)
+- [Baking Tab](./Other%20Tools%20Tab/2%20Baking%20Tab.md)
+- [Quick Frame Range](./Other%20Tools%20Tab/3%20Quick%20Frame%20Range.md)
 
 <div style="margin-top: 24px;">
 
