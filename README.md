@@ -54,11 +54,9 @@
 
 <p>In the <strong>Add-On</strong> menu, you can find three main tabs:</p>
 
-<ul>
-  <li><a href="/Tabs/Animation_Tools.md">Animation Tools</a></li>
-  <li><a href="/Tabs/CleanUp_Tools.md">Clean-Up Tools</a></li>
-  <li><a href="/Tabs/CleanUp_Tools.md">Other Tools</a></li>
-</ul>
+- [Animation Tools - Not Linked](/Tabs/Animation_Tools.md)
+- [Clean-Up Tools](/Tabs/CleanUp_Tools.md)
+- [Other Tools - Not Done](/Tabs/CleanUp_Tools.md)
 
 > ### [Documentation license](LICENSE)
 > You may redistribute this documentation `unmodified` with proper attribution to the original author.  

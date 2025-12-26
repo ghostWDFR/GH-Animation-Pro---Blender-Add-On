@@ -9,3 +9,9 @@ Clean-Up NLA (Selected) removes helper NLA tracks and constraints from the selec
 - Select the bone or object that has one or more empties from the **GH_IK_Lock_Points** collection attached to it.
 - Click **Clean-Up NLA (Selected)**.
 - Done. Any NLA tracks, empties, and related constraints created by **GH Animation Pro** and linked to those locks will be removed, while unrelated constraints that are not part of the add-on remain untouched.
+
+<div style="margin-top: 24px;">
+
+> **Note:** This cleanup only targets helper NLA tracks, empties, and constraints created by **GH Animation Pro**. Any custom constraints or rig logic you added manually will remain untouched.
+
+</div>
