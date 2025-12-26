@@ -1,22 +1,24 @@
 [Return to Other Tools Page](/Tabs/Other%20Tools.md)
 
-
-
 # Baking Tab
 
+<div align="center">
 
+![GH Animation Pro panel](/IMAGES/Baking_Tab.png)
+
+</div>
 
 The **Baking** tab contains two tools that handle keyframe baking in different ways. **Bake Current Frame (Selected)** is designed for safely baking the *current visual pose* into the existing action without breaking NLA or active constraints, while **Bake Animation (Selected)** is a more classic full-range bake with streamlined settings for everyday production use.
 
-
-
 ## Bake Current Frame (Selected)
 
+<div align="center">
 
+![GH Animation Pro panel](/IMAGES/Bake_Current_Frame.png)
+
+</div>
 
 **Bake Current Frame (Selected)** takes the visually evaluated transform of the selected objects or pose bones on the current frame and writes it as keys into the existing action. It keeps all NLA tracks, constraints, and rig connections intact, so the rest of the animation and setup continue to work as before, only the current pose is committed to keyframes at that frame.
-
-
 
 ### Step by Step
 
@@ -34,11 +36,13 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 
 ## Bake Animation (Selected)
 
+<div align="center">
 
+![GH Animation Pro panel](/IMAGES/Bake_Animation.png)
+
+</div>
 
 **Bake Animation (Selected)** performs a full animation bake over a frame range, similar to Blender’s standard Bake Action, but wrapped in a focused panel with the most useful options grouped in one place. You can bake either **Object** or **Pose** data, choose which channels to key, and decide whether to clear constraints, parents, or overwrite the existing action after baking.
-
-
 
 ### Step by Step
 
@@ -48,7 +52,6 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 - Decide whether to enable **Visual Keying**, **Clear Constraints**, **Clear Parents**, and **Overwrite Current Action** depending on whether you want a completely independent baked result or just a keyed copy that still follows the original rig.
 - Optionally set a custom **Action Name** if you want the bake to go into a new action instead of modifying the current one.
 - Click **Bake Animation (Selected)** to generate keys for the selected objects or bones across the chosen frame range using the evaluated result of all constraints and drivers.
-
 
 <div style="margin-top: 24px;">
 

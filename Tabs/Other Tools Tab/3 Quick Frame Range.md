@@ -2,6 +2,12 @@
 
 # Quick Frame Range
 
+<div align="center">
+
+![GH Animation Pro panel](/IMAGES/Quick_Frame_Range.png)
+
+</div>
+
 The **Quick Frame Range** section provides a set of tools for rapidly aligning the scene’s playback range to your current animation, loops, or markers. It also lets you save and restore a preferred frame range so you can safely experiment with different segments without losing your baseline timeline setup.
 
 ## Set Scene Range
