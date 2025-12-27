@@ -43,22 +43,25 @@
   </p>
 </details>
 
-<h1 style="margin-bottom: 16px; margin-top: 32px;">Add-On Menu Preview:</h1>
+<h1 style="margin-bottom: 16px; margin-top: 32px;">Add-On Video Demos:</h1>
+
 <details>
-  <summary><strong>Show GH Animation Pro Add-On Menu</strong></summary>
+  <summary><strong>Show GH Animation Pro Demos</strong></summary>
   <p> </p>
-  <p align="center">
-    <img src="IMAGES/GH_Animation_PRO.png" alt="GH Animation Pro panel">
-  </p>
+  <div align="center">
+    <video controls src="./VIDEOS/Demo_1.mp4" width="500"></video>
+    <br><br>
+    <video controls src="./VIDEOS/Demo_2.mp4" width="500"></video>
+    <br><br>
+    <video controls src="./VIDEOS/Demo_3.mp4" width="500"></video>
+  </div>
 </details>
 
-<h2>Main Tabs</h2>
+<div style="margin-top: 24px;">
 
-<p>In the <strong>Add-On</strong> menu, you can find three main tabs:</p>
+# [Documentation Page](/Tabs/Main%20Menu.md)
 
-- [Animation Tools Tab](/Tabs/Animation%20Tools.md)
-- [Clean-Up Tools Tab](/Tabs/Clean-Up%20Tools.md)
-- [Other Tools Tab](/Tabs/Other%20Tools.md)
+</div>
 
 > ### [Documentation license](LICENSE)
 > You may redistribute this documentation `unmodified` with proper attribution to the original author.  

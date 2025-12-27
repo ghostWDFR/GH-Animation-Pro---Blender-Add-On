@@ -1,8 +1,22 @@
 [Return to Animation Tools Page](/Tabs/Animation%20Tools.md)
 
+<div align="center" style="margin-top: 32px; margin-bottom: 64px;">
+
+![FPS Tweaks](/IMAGES/IK_Lock_Points_Pose_Mode.png)
+
+**IK Lock Points – Pose Mode View**
+
+</div>
+
 # 1. Lock IK Position
 
 **Lock IK Position** button let you pin the current position and rotation of a pose bone to a helper empty, driven through its own action and NLA strip. The helper is automatically named after the bone and the frame where the lock is created (for example, `BoneName_Lock_0123`), so you can quickly identify which lock belongs to which bone and frame even in heavy scenes with many IK Lock Points. The same naming is reused for the lock’s Action and its NLA track, keeping all technical layers clearly grouped and easy to navigate. This creates a clean, non-destructive IK “anchor” that you can move independently, while the bone follows via constraints. You can stack multiple locks on the same bone at different frames, freely animate between them, and later bake or clean them when the setup is no longer needed.
+
+<div align="center">
+
+![FPS Tweaks](/IMAGES/GHIK_Lock_Collection.png)
+
+</div>
 
 ## Step by Step
 
@@ -32,6 +46,14 @@
 <div style="margin-top: 32px; margin-bottom: 64px;">
 
 > **Note:** Unlike the generic bake tools in **Other Tools**, **Bake All IK Locks** understands the IK Lock Points structure: it limits baking to IK Lock NLA ranges, only affects bones driven by IK Locks, and performs full cleanup of all related helpers in one step. Once baked, edits affect the direct keyframes; if you need IK Lock Points again, create new locks on top of the baked animation.
+
+</div>
+
+<div align="center" style="margin-top: 32px; margin-bottom: 64px;">
+
+![FPS Tweaks](/IMAGES/IK_Lock_Points_Objects_Mode.png)
+
+**IK Lock Points – Object Mode View**
 
 </div>
 
