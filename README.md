@@ -49,11 +49,13 @@
   <summary><strong>Show GH Animation Pro Demos</strong></summary>
   <p> </p>
   <div align="center">
-    <video controls src="./VIDEOS/Demo_1.mp4" width="500"></video>
-    <br><br>
-    <video controls src="./VIDEOS/Demo_2.mp4" width="500"></video>
-    <br><br>
-    <video controls src="./VIDEOS/Demo_3.mp4" width="500"></video>
+
+https://github.com/user-attachments/assets/14010c09-cf2f-4d88-9682-4dfe35ba7acb
+
+https://github.com/user-attachments/assets/3dc4c19c-a7d8-4241-997e-fc26538541a8
+
+https://github.com/user-attachments/assets/17b27ceb-493b-47fc-b946-d1257e041307
+
   </div>
 </details>
 
