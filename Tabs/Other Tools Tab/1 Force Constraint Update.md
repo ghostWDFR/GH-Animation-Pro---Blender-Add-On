@@ -2,6 +2,12 @@
 
 # Force Constraint Update
 
+<div align="center">
+
+![FPS Changer](/IMAGES/Force_Constraints_Update.png)
+
+</div>
+
 **Force Constraint Update** refreshes constraints on the selected armature to make sure all driven and constraint-based relationships are correctly evaluated. Use it when constraints appear out of sync after heavy editing, importing, or baking, and you want to force Blender to recalculate everything without changing your keyframes or rig structure.
 
 ## Step by Step
