@@ -4,7 +4,7 @@
 
 **Lock IK Position** button let you pin the current position and rotation of a pose bone to a helper empty, driven through its own action and NLA strip. The helper is automatically named after the bone and the frame where the lock is created (for example, `BoneName_Lock_0123`), so you can quickly identify which lock belongs to which bone and frame even in heavy scenes with many IK Lock Points. The same naming is reused for the lock’s Action and its NLA track, keeping all technical layers clearly grouped and easy to navigate. This creates a clean, non-destructive IK “anchor” that you can move independently, while the bone follows via constraints. You can stack multiple locks on the same bone at different frames, freely animate between them, and later bake or clean them when the setup is no longer needed.
 
-# Step by Step
+## Step by Step
 
 - Select an **armature** and enter **Pose Mode**, then choose the pose bone you want to lock.
 - Move to the frame where you want to create the lock.
@@ -22,7 +22,7 @@
 
 **Bake All IK Locks** button is a dedicated baker for **IK Lock Points**, not a general-purpose bake for any animation. It looks for NLA strips that belong to IK Locks on the selected rig, bakes only the visible, constraint-driven motion of bones that actually depend on those locks (within the ranges of their IK Lock NLA strips), and then removes all IK Lock–related helper NLA strips and empties. This leaves you with a clean, lightweight rig that no longer depends on the temporary IK Lock Points setup, without touching unrelated animation or bones that are not driven by IK Locks.
 
-# Step by Step
+## Step by Step
 
 - Select the **armature** that uses IK Lock Points and, in **Pose Mode**, select the bones whose IK Lock–driven motion you want to finalize.
 - Click **Bake All IK Locks** in the **IK Lock Points** section.
@@ -39,7 +39,7 @@
 
 **Remove All IK Locks** button is a one-click cleanup for the entire IK Lock Points system on the current armature. It removes all IK Lock NLA tracks and strips, deletes the helper empties in the **GH_IK_Lock_Points** collection, and strips IK Lock–related constraints from all pose bones, restoring the rig to its original state before any IK Lock Points were added.
 
-# Step by Step
+## Step by Step
 
 - Select the **armature** whose IK Lock Points you want to remove, and make sure it is in **Pose Mode**.
 - In the **Animation Tools** tab, open **IK Lock Points** and click **Remove All IK Locks**.
@@ -55,7 +55,7 @@
 
 **Remove Selected IK Locks** button lets you surgically delete only specific IK Lock Points instead of wiping the entire system. It works on the currently selected IK Lock empties in the **GH_IK_Lock_Points** collection: for each selected lock, the add-on removes all constraints on any armature bones that target this empty, cleans up the corresponding NLA strips and actions that drive the lock, and then deletes just those empties themselves, leaving other IK Lock Points intact.
 
-# Step by Step
+## Step by Step
 
 - Switch to **Object Mode** and select one or more IK Lock empties in the **GH_IK_Lock_Points** collection that you want to remove. These empties must be selected as objects; in **Pose Mode** this tool is not available.
 - In the **Animation Tools** tab, open **IK Lock Points** and click **Remove Selected IK Locks**.
@@ -71,7 +71,7 @@
 
 **Bake Selected IK Lock** button is a precise baker for one or more chosen IK Lock Points. It works from the currently selected IK Lock empties in the **GH_IK_Lock_Points** collection: for each selected lock, the add-on finds all armatures and bones constrained to that empty, bakes their IK-driven motion only over that lock’s NLA strip range into regular keyframes on the armature’s current action, and then removes the corresponding constraints, NLA strips, actions, and empties for those locks while leaving all other IK Lock Points and helpers untouched.
 
-# Step by Step
+## Step by Step
 
 - Switch to **Object Mode** and select one or more IK Lock empties in the **GH_IK_Lock_Points** collection whose motion you want to finalize. These empties must be selected as objects; in **Pose Mode** this tool is not available and the button will not be shown.
 - In the **Animation Tools** tab, open **IK Lock Points** and click **Bake Selected IK Lock**.

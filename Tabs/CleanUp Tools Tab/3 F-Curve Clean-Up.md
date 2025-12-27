@@ -11,7 +11,7 @@
 
 **F-Curve Cleanup** simplifies your animation curves while keeping the motion visually intact. It uses a tolerance value (Threshold) to remove redundant keys and rebuild cleaner Bezier curves, making your graph easier to read, edit, and ready for production. You can either clean entire channels at once or focus on a specific segment of selected keys when you only need to tidy up part of the motion.
 
-# Step by Step
+## Step by Step
 
 - In the **Graph Editor**, select the F-Curves you want to clean and adjust the **Threshold** value in the **F-Curve Cleanup** section to control how aggressively the animation is simplified.
 

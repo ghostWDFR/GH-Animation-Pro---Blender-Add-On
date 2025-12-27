@@ -28,7 +28,7 @@ The **Quick Frame Range** section provides a set of tools for rapidly aligning t
 
 **Quick Frame Range (Loop)** is a loop-friendly variant of the same tool. It uses the keyframe span of the active object or armature’s current Action, but deliberately shortens the range by one frame at the end: the scene **Start** frame is set to the first key, and the **End** frame is set to the last key minus 1. This prevents the first and last poses from playing back twice in a row, which helps avoid visible stutters when the timeline loops.
 
-### Step by Step
+## Step by Step
 
 - Select the looping asset (for example, a walk cycle armature or any object with a cyclic Action) whose loop length you want to preview. The loop duration is taken directly from the earliest and latest keyframes in this object’s active Action.
 - In the **Quick Frame Range** section, click **Quick Frame Range (Loop)**.
@@ -40,7 +40,7 @@ The **Quick Frame Range** section provides a set of tools for rapidly aligning t
 
 **Loop Between Markers** uses the currently **selected** timeline markers to define the scene’s **Start** and **End** frames. To quickly set a time range, select any number of markers in the timeline, and the add-on will set the frame range from the earliest selected marker to the latest one, regardless of how many markers lie in between.
 
-### Step by Step
+## Step by Step
 
 - In the timeline, select at least **two** markers that cover the section you want to isolate.
 - Click **Loop Between Markers** in the **Quick Frame Range** section.
@@ -63,7 +63,7 @@ Beneath the main buttons, **Quick Frame Range** shows the **Saved Range** that i
 
 **Save Current Frame Range** stores the scene’s **Start** and **End** frames exactly as they are at the moment you press the button. This defines the baseline range that will be used later by **Reset Frame Range**, so any future reset will jump back to this saved segment instead of whatever you were using before.
 
-### Step by Step
+## Step by Step
 
 - Adjust the scene **Start** and **End** frames to the range you want to treat as your baseline.
 - Click **Save Current Frame Range** in the **Quick Frame Range** section.
@@ -75,7 +75,7 @@ Beneath the main buttons, **Quick Frame Range** shows the **Saved Range** that i
 
 **Reset Frame Range** restores the scene’s **Start** and **End** frames to whatever range was last saved with **Save Current Frame Range**. You never have to edit any files manually: the add-on simply reads the stored values and snaps the scene range back to them when you press the button.
 
-### Step by Step
+## Step by Step
 
 - First, set the scene **Start** and **End** frames to the range you want to use as your baseline and click **Save Current Frame Range**.
 - Later, whenever you want to revert after experimenting with other frame ranges, open **Quick Frame Range** and click **Reset Frame Range**.

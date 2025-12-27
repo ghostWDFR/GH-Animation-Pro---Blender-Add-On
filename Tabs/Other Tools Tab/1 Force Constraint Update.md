@@ -4,7 +4,7 @@
 
 **Force Constraint Update** refreshes constraints on the selected armature to make sure all driven and constraint-based relationships are correctly evaluated. Use it when constraints appear out of sync after heavy editing, importing, or baking, and you want to force Blender to recalculate everything without changing your keyframes or rig structure.
 
-# Step by Step
+## Step by Step
 
 - Select the **armature** whose constraints you want to refresh, making sure it is included in the current selection.
 - Open the **GH Animation Pro** panel and expand the **Other Tools** → **Force Constraint Update** section.

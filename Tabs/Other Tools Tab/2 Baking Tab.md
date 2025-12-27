@@ -10,7 +10,7 @@
 
 The **Baking** tab contains two tools that handle keyframe baking in different ways. **Bake Current Frame (Selected)** is designed for safely baking the *current visual pose* into the existing action without breaking NLA or active constraints, while **Bake Animation (Selected)** is a more classic full-range bake with streamlined settings for everyday production use.
 
-## 1. Bake Current Frame (Selected)
+# 1. Bake Current Frame (Selected)
 
 <div align="center">
 
@@ -20,7 +20,7 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 
 **Bake Current Frame (Selected)** takes the visually evaluated transform of the selected objects or pose bones on the current frame and writes it as keys into the existing action. It keeps all NLA tracks, constraints, and rig connections intact, so the rest of the animation and setup continue to work as before, only the current pose is committed to keyframes at that frame.
 
-### Step by Step
+## Step by Step
 
 - Go to the frame whose **visual pose** you want to lock in.
 - Select the objects or pose bones you want to bake on this frame.
@@ -34,7 +34,7 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 
 </div>
 
-## 2. Bake Animation (Selected)
+# 2. Bake Animation (Selected)
 
 <div align="center">
 
@@ -44,7 +44,7 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 
 **Bake Animation (Selected)** performs a full animation bake over a frame range, similar to Blender’s standard Bake Action, but wrapped in a focused panel with the most useful options grouped in one place. You can bake either **Object** or **Pose** data, choose which channels to key, and decide whether to clear constraints, parents, or overwrite the existing action after baking.
 
-### Step by Step
+## Step by Step
 
 - Set the desired **Start Frame** and **End Frame**, or enable **Use Current Frame** if the add-on provides that option for the end frame.
 - Choose what to bake in **Bake Data**: **Pose** for armatures in Pose Mode or **Object** for regular transforms.
