@@ -69,4 +69,5 @@ https://github.com/user-attachments/assets/17b27ceb-493b-47fc-b946-d1257e041307
 
 > ### [Documentation license](LICENSE)
 > You may redistribute this documentation `unmodified` with proper attribution to the original author.  
-> Modifications, translations, and derivative works are `not` allowed without explicit permission.
+> Translations into other languages are allowed, as long as the content remains `unmodified` and proper attribution is preserved.  
+> Other modifications and derivative works are `not` allowed without explicit permission.
