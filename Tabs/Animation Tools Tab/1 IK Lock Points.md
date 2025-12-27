@@ -2,12 +2,9 @@
 
 # 1. Lock IK Position
 
-
 **Lock IK Position** button let you pin the current position and rotation of a pose bone to a helper empty, driven through its own action and NLA strip. The helper is automatically named after the bone and the frame where the lock is created (for example, `BoneName_Lock_0123`), so you can quickly identify which lock belongs to which bone and frame even in heavy scenes with many IK Lock Points. The same naming is reused for the lock’s Action and its NLA track, keeping all technical layers clearly grouped and easy to navigate. This creates a clean, non-destructive IK “anchor” that you can move independently, while the bone follows via constraints. You can stack multiple locks on the same bone at different frames, freely animate between them, and later bake or clean them when the setup is no longer needed.
 
-
 # Step by Step
-
 
 - Select an **armature** and enter **Pose Mode**, then choose the pose bone you want to lock.
 - Move to the frame where you want to create the lock.
@@ -15,12 +12,9 @@
 - The add-on creates a helper empty in the **GH_IK_Lock_Points** collection (with a name that encodes the bone and frame), adds Copy Location/Copy Rotation constraints to the bone, and builds an NLA strip and track that inherit the same naming for consistent organization.
 - You can repeat this on other frames or bones to create additional IK Lock Points, then use the baking and cleanup tools to collapse them into regular keyframes when you are ready.
 
-
 <div style="margin-top: 32px; margin-bottom: 64px;">
 
-
 > **Note:** Keep in mind that the IK Lock Point records the bone’s position on the frame where you create it, but the bone will not be fully locked to the helper empty exactly on that single frame. Because the generated NLA strip uses default **Blend In** and **Blend Out** values of 3 frames, the constraint influence smoothly ramps in and out across a short range, which you should consider when planning and refining your animation around the lock.
-
 
 </div>
 

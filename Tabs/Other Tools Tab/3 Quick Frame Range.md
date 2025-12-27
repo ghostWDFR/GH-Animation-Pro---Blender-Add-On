@@ -10,7 +10,7 @@
 
 The **Quick Frame Range** section provides a set of tools for rapidly aligning the scene’s playback range to your current animation, loops, or markers. It also lets you save and restore a preferred frame range so you can safely experiment with different segments without losing your baseline timeline setup.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
 # 1. Quick Frame Range
 
@@ -22,7 +22,7 @@ The **Quick Frame Range** section provides a set of tools for rapidly aligning t
 - Open the **Quick Frame Range** section and click **Quick Frame Range**.
 - The add-on looks through all F-Curves in the active Action, finds the minimum and maximum keyframe times, and sets the scene’s **Start** and **End** frames to those values, so playback and rendering focus only on the animated segment.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
 # 2. Quick Frame Range (Loop)
 
@@ -34,9 +34,9 @@ The **Quick Frame Range** section provides a set of tools for rapidly aligning t
 - In the **Quick Frame Range** section, click **Quick Frame Range (Loop)**.
 - The add-on gathers all keyframe times from the active Action, sets the scene’s **Start** frame to the earliest key and the **End** frame to one frame before the latest key, giving you a clean loop window that plays seamlessly without repeating the same frame at the boundary.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
-# 3 Loop Between Markers
+# 3. Loop Between Markers
 
 **Loop Between Markers** uses the currently **selected** timeline markers to define the scene’s **Start** and **End** frames. To quickly set a time range, select any number of markers in the timeline, and the add-on will set the frame range from the earliest selected marker to the latest one, regardless of how many markers lie in between.
 
@@ -46,9 +46,9 @@ The **Quick Frame Range** section provides a set of tools for rapidly aligning t
 - Click **Loop Between Markers** in the **Quick Frame Range** section.
 - The scene frame range will snap to the outermost selected markers.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
-# 4 Saved Frame Range Display
+# 4. Saved Frame Range Display
 
 Beneath the main buttons, **Quick Frame Range** shows the **Saved Range** that is currently stored for the add-on. This helps you keep track of which frame span will be applied when you use **Reset Frame Range**, so you do not accidentally restore an unexpected segment.
 
@@ -57,9 +57,9 @@ Beneath the main buttons, **Quick Frame Range** shows the **Saved Range** that i
 - Whenever you use **Save Current Frame Range**, the panel updates to display the saved start and end frames as `Saved Range: X - Y`.
 - This visual indicator lets you quickly compare the saved range with the scene’s current frame range and decide whether you really want to apply it back to the scene.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
-# 5 Save Current Frame Range
+# 5. Save Current Frame Range
 
 **Save Current Frame Range** stores the scene’s **Start** and **End** frames exactly as they are at the moment you press the button. This defines the baseline range that will be used later by **Reset Frame Range**, so any future reset will jump back to this saved segment instead of whatever you were using before.
 
@@ -69,9 +69,9 @@ Beneath the main buttons, **Quick Frame Range** shows the **Saved Range** that i
 - Click **Save Current Frame Range** in the **Quick Frame Range** section.
 - From now on, **Reset Frame Range** will restore the timeline to this saved range, until you save a new one.
 
-<div style="margin-top: 64px;"></div>
+<div style="margin-top: 32px;"></div>
 
-# 6 Reset Frame Range
+# 6. Reset Frame Range
 
 **Reset Frame Range** restores the scene’s **Start** and **End** frames to whatever range was last saved with **Save Current Frame Range**. You never have to edit any files manually: the add-on simply reads the stored values and snaps the scene range back to them when you press the button.
 
