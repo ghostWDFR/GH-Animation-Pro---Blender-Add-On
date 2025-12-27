@@ -1,4 +1,4 @@
-[Return to Main Page](../README.md)
+[Return to Main Menu Page](/Tabs/Main%20Menu.md)
 
 <div align="center">
 
@@ -16,6 +16,6 @@ This tab contain options:
 
 <div style="margin-top: 24px;">
 
-> **Note:** You can always click **Return to Main Page** at the top of this document to quickly navigate back to the main overview.
+> **Note:** You can always click **Return to Main Menu Page** at the top of this document to quickly navigate back to the main overview.
 
 </div>
