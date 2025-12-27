@@ -4,14 +4,14 @@
 
 <div align="center">
 
-![GH Animation Pro panel](/IMAGES/FPS_Tweaks.png)
+![FPS Tweaks](/IMAGES/FPS_Tweaks.png)
 
 </div>
 
 This tab contains:
 
-- [IK Lock Points](./Animation%20Tools%20Tab/1%20IK%20Lock%20Points.md)
-- [Object Interactions](./Animation%20Tools%20Tab/2%20Object%20Interactions.md)
+- [FPS Changer](/Tabs/Animation%20Tools%20Tab/4.1%20FPS%20Changer.md)
+- [Slow Motion](/Tabs/Animation%20Tools%20Tab/4.2%20Slow%20Motion.md)
 
 <div style="margin-top: 24px;">
 
