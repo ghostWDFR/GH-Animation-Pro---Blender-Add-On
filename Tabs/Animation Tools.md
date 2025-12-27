@@ -10,7 +10,7 @@
 
 This tab contains:
 
-- IK Lock Points
+- [IK Lock Points](./Animation%20Tools%20Tab/1%20IK%20Lock%20Points.md)
 - Object Interactions
 - Animated Physics
 - FPS Tweaks

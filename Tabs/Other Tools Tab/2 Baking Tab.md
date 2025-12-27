@@ -10,7 +10,7 @@
 
 The **Baking** tab contains two tools that handle keyframe baking in different ways. **Bake Current Frame (Selected)** is designed for safely baking the *current visual pose* into the existing action without breaking NLA or active constraints, while **Bake Animation (Selected)** is a more classic full-range bake with streamlined settings for everyday production use.
 
-## Bake Current Frame (Selected)
+## 1 Bake Current Frame (Selected)
 
 <div align="center">
 
@@ -34,7 +34,7 @@ The **Baking** tab contains two tools that handle keyframe baking in different w
 
 </div>
 
-## Bake Animation (Selected)
+## 2 Bake Animation (Selected)
 
 <div align="center">
 

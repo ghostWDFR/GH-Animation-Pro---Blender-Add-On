@@ -3,8 +3,6 @@
 > **Blender versions:** 4.3 – 4.4  
 > **Add-on version:** 1.0.0
 
-> Rig-agnostic animation toolkit: works with any rigs and objects by using standard Blender constraints + Actions/NLA. Includes IK locking via helper empties, object-to-bone attachments, baking tools (full animation + safe current-frame bake), cleanup utilities, animated rigid-body physics tools, timeline/range helpers, and keyframe retiming (FPS conversion + SlowMo).
-
 <h1 style="margin-bottom: 16px; margin-top: 32px;">Description:</h1>
 <details>
   <summary><strong>GH Animation Pro - description</strong></summary>
