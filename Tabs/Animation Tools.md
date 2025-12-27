@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![GH Animation Pro panel](/IMAGES/Animation%20Tools.png)
+![Animation Tools](/IMAGES/Animation%20Tools.png)
 
 </div>
 
