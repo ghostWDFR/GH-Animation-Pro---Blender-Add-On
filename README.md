@@ -26,7 +26,7 @@
 <summary>Click to expand</summary>
 
 <br><br>
-| Blender | Статус |
+| Blender | Status |
 |---------|--------|
 | **3.6 LTS** | ✅ Full |
 | **4.0–4.4** | ✅ Full |
