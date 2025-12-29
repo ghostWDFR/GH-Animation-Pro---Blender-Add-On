@@ -11,7 +11,7 @@
 
 <div style="margin-top: 32px; margin-bottom: 32px;">
 
-1. Download `GH Animation Pro` from superhivemarket.com
+1. Download `GH Animation Pro` from [Superhive Page](https://superhivemarket.com/creators/ghostwdfr)
 2. Blender → **Edit** → **Preferences** → **Add-ons** → **Install**  
 3. Select ZIP → **Install Add-on**
 4. Enable **"GH Animation Pro"**
