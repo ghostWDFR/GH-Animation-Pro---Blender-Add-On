@@ -6,6 +6,12 @@
 
 **IK Lock Points – Pose Mode View**
 
+<div style="margin-top: 32px; margin-bottom: 64px;">
+
+> **Note:** In the screenshot you see all buttons in this section only because an armature and an empty are selected at the same time. Normally, only the valid buttons for the current context are shown: different buttons appear when an empty is selected versus when an armature is active in Pose Mode, so keep this in mind.
+
+</div>
+
 </div>
 
 # 1. Lock IK Position
@@ -26,26 +32,43 @@
 - The add-on creates a helper empty in the **GH_IK_Lock_Points** collection (with a name that encodes the bone and frame), adds Copy Location/Copy Rotation constraints to the bone, and builds an NLA strip and track that inherit the same naming for consistent organization.
 - You can repeat this on other frames or bones to create additional IK Lock Points, then use the baking and cleanup tools to collapse them into regular keyframes when you are ready.
 
+<div align="center">
+
+![IK Lock Points NLA](/IMAGES/IK_Lock_Points_NLA.png)
+
+**Target bone/bones follows IK Lock Point based on NLA tracks**
+
+</div>
+
 <div style="margin-top: 32px; margin-bottom: 64px;">
+
+> **Note:** Until a lock has been baked, you can freely move its NLA strip, adjust Blend In/Out, change its length, and so on – everything updates dynamically. You can also add custom animation to the lock empties themselves to adapt the bones for specific situations, for example making hands appear to hold onto something or grip an object, thus creating interactive behavior.
 
 > **Note:** Keep in mind that the IK Lock Point records the bone’s position on the frame where you create it, but the bone will not be fully locked to the helper empty exactly on that single frame. Because the generated NLA strip uses default **Blend In** and **Blend Out** values of 3 frames, the constraint influence smoothly ramps in and out across a short range, which you should consider when planning and refining your animation around the lock.
 
 </div>
 
-# 2. Bake All IK Locks
+# 2. Bake Selected IK Locks (Bones)
 
-**Bake All IK Locks** button is a dedicated baker for **IK Lock Points**, not a general-purpose bake for any animation. It looks for NLA strips that belong to IK Locks on the selected rig, bakes only the visible, constraint-driven motion of bones that actually depend on those locks (within the ranges of their IK Lock NLA strips), and then removes all IK Lock–related helper NLA strips and empties. This leaves you with a clean, lightweight rig that no longer depends on the temporary IK Lock Points setup, without touching unrelated animation or bones that are not driven by IK Locks.
+**Bake Selected IK Locks** works from the **selected bones** on the active armature in Pose Mode. It bakes the IK Lock–driven motion for those bones **from all IK Lock Points that affect them** and then removes the corresponding IK Lock helper NLA strips and empties, without touching other parts of the rig that are not driven by those locks.
 
 ## Step by Step
 
-- Select the **armature** that uses IK Lock Points and, in **Pose Mode**, select the bones whose IK Lock–driven motion you want to finalize.
-- Click **Bake All IK Locks** in the **IK Lock Points** section.
-- The add-on finds NLA strips that belong to IK Locks and bakes only the IK Lock ranges for the selected bones that are actually constrained by IK Lock empties, writing that motion into regular keyframes on the armature’s action.
-- After baking, the IK Lock NLA strips and their helper empties are automatically removed (along with their tracks if they become empty), leaving you with clean keyframes that no longer depend on the IK Lock Points system.
+- Select the **armature** that uses IK Lock Points and, in **Pose Mode**, select the bones whose IK Lock–driven motion you want to finalize.  
+- Click **Bake Selected IK Locks** in the **IK Lock Points** section.  
+- The add-on finds all IK Lock NLA strips whose empties constrain those selected bones, bakes the visual motion of these bones over each strip’s frame range into regular keyframes on the armature’s action, and then removes the related IK Lock NLA strips and helper empties, while leaving other IK Locks (that do not influence the selected bones) intact.
+
+<div align="center">
+
+![IK Lock Points NLA Bake](/IMAGES/IK_Lock_Points_NLA_Bake.png)
+
+**IK Lock Point or Points can be baked into ketframes**
+
+</div>
 
 <div style="margin-top: 32px; margin-bottom: 64px;">
 
-> **Note:** Unlike the generic bake tools in **Other Tools**, **Bake All IK Locks** understands the IK Lock Points structure: it limits baking to IK Lock NLA ranges, only affects bones driven by IK Locks, and performs full cleanup of all related helpers in one step. Once baked, edits affect the direct keyframes; if you need IK Lock Points again, create new locks on top of the baked animation.
+> **Note:** Unlike the generic bake tools in **Other Tools**, **Bake Selected IK Locks** works from the currently selected bones: it looks at all IK Lock Points that drive those bones, limits baking to the IK Lock NLA ranges, and then cleans up only the helpers related to those locks. Once baked, edits affect the direct keyframes; if you need IK Lock Points again, create new locks on top of the baked animation.
 
 </div>
 
@@ -89,25 +112,22 @@
 
 </div>
 
-# 5. Bake Selected IK Lock
+# 5. Bake Selected IK Lock (Empty)
 
-**Bake Selected IK Lock** button is a precise baker for one or more chosen IK Lock Points. It works from the currently selected IK Lock empties in the **GH_IK_Lock_Points** collection: for each selected lock, the add-on finds all armatures and bones constrained to that empty, bakes their IK-driven motion only over that lock’s NLA strip range into regular keyframes on the armature’s current action, and then removes the corresponding constraints, NLA strips, actions, and empties for those locks while leaving all other IK Lock Points and helpers untouched.
+**Bake Selected IK Lock** works from the **selected IK Lock empties themselves**. It bakes only the motion driven by the **specific locks you have selected**, for all bones and rigs that reference those empties as constraint targets, and then removes only those particular locks, their NLA strips, actions, and empties, leaving all other IK Lock Points and helpers untouched.
 
 ## Step by Step
 
-- Switch to **Object Mode** and select one or more IK Lock empties in the **GH_IK_Lock_Points** collection whose motion you want to finalize. These empties must be selected as objects; in **Pose Mode** this tool is not available and the button will not be shown.
-- In the **Animation Tools** tab, open **IK Lock Points** and click **Bake Selected IK Lock**.
-- For each selected lock, the add-on:
-  - finds all armatures and pose bones that use this empty as a constraint target,
-  - locates the NLA strip that plays the lock’s action and bakes the visual motion of those bones only over that strip’s frame range into their current action,
-  - then removes the lock’s constraints, NLA strips, action, and the empty itself, leaving the baked motion as regular keyframes while other IK Lock Points and their animation remain active.
+- Switch to **Object Mode** and select one or more IK Lock empties in the **GH_IK_Lock_Points** collection whose motion you want to finalize; this tool is only available when empties are selected as objects, not in Pose Mode.  
+- In the **Animation Tools** tab, open **IK Lock Points** and click **Bake Selected IK Lock**.  
+- For each selected lock, the add-on finds every armature and pose bone that uses this empty as a constraint target, locates the NLA strip that plays the lock’s action, bakes only that strip’s visual IK-driven motion into the bones’ current action over the strip’s frame range, and then removes that lock’s constraints, NLA strip, action, and empty, while all other IK Lock Points and their animation remain active.
 
 <div style="margin-top: 32px;">
 
-> **Note:** Functionally, **Bake Selected IK Lock** uses the same idea as **Bake All IK Locks** (visual IK → keyframes over each lock’s NLA range), but with a different scope:  
-> – **Bake All IK Locks** operates on the active armature, baking and cleaning *all* of its IK Lock Points and then removing all IK Lock empties and the collection.  
-> – **Bake Selected IK Lock** operates only on the explicitly selected empties, baking and cleaning just those locks and leaving the rest of the IK Lock system intact.  
-> In most workflows, **Bake All IK Locks** is sufficient and faster to use; reach for **Bake Selected IK Lock** when you need to finalize or remove specific locks while keeping others for further editing.
+> **Note:** Functionally, **Bake Selected IK Lock** uses the same visual-IK-to-keyframes approach as the bone-based **Bake Selected IK Locks**, but with a different scope:  
+> – **Bake Selected IK Locks (Bones)** starts from the selected bones and bakes all IK Lock Points that drive them.  
+> – **Bake Selected IK Lock (Empty)** starts from the explicitly selected empties and bakes only those particular locks, leaving all other IK Lock Points and their helpers intact.  
+> In most workflows, the bone-based baker is more convenient for finalizing a whole pose setup; use the empty-based **Bake Selected IK Lock** when you need to surgically finalize or remove specific locks while keeping the rest for further editing.
 
 </div>
 
