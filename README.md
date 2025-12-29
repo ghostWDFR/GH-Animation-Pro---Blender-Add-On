@@ -9,15 +9,15 @@
 
 <summary>Click to expand</summary>
 
-<div style="margin-top: 32px; margin-bottom: 32px;">
 
+<br><br>
 1. Download `GH Animation Pro` from [Superhive Page](https://superhivemarket.com/creators/ghostwdfr)
 2. Blender → **Edit** → **Preferences** → **Add-ons** → **Install**  
 3. Select ZIP → **Install Add-on**
 4. Enable **"GH Animation Pro"**
 5. **N-Panel** → `**GH Tools**` tab → **Done!**
+<br><br>
 
-</div>
 
 </details>
 
@@ -25,21 +25,16 @@
 <details>
 <summary>Click to expand</summary>
 
-<div style="margin-top: 32px; margin-bottom: 32px;">
-
+<br><br>
 | Blender | Статус |
 |---------|--------|
 | **3.6 LTS** | ✅ Full |
 | **4.0–4.4** | ✅ Full |
 | **5.0** | ✅ Full |
 
-</div>
-
-<div style="margin-top: 32px; margin-bottom: 16px;">
-
 > **Note:** Due to significant differences across Blender versions, bugs are possible but minimized through safe helper functions.
 
-</div>
+<br><br>
 
 </details>
 
@@ -48,7 +43,7 @@
 <details>
 <summary>Click to expand</summary>
 
-<div style="margin-top: 32px; margin-bottom: 32px;">
+<br><br>
 
 - **IK Lock Points** → Lock → Bake → Cleanup (Example: mocap feet fix)
 - **Physics to Keys** → Add Physics → Bake Selected → Remove  
@@ -57,7 +52,7 @@
 - **F-Curve Cleanup** → Adaptive simplify (error threshold)
 - **And more!** - check full documentation
 
-</div>
+<br><br>
 
 </details>
 
