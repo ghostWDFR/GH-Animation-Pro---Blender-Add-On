@@ -38,7 +38,7 @@
 
 </details>
 
-## ✨ **5 Production Pipelines**
+## ✨ **Production Pipelines**
 
 <details>
 <summary>Click to expand</summary>

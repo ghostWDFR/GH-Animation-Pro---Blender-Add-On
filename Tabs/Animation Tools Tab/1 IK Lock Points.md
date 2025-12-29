@@ -130,4 +130,3 @@
 > In most workflows, the bone-based baker is more convenient for finalizing a whole pose setup; use the empty-based **Bake Selected IK Lock** when you need to surgically finalize or remove specific locks while keeping the rest for further editing.
 
 </div>
-
