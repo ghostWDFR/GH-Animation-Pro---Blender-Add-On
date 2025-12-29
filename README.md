@@ -1,6 +1,6 @@
 # GH Animation Pro - Blender Add-On
 
-> **Blender versions:** 4.3 – 4.4  
+> **Blender versions:** 3.6 – 5.0.1 
 > **Add-on version:** 1.0.0
 
 <h1 style="margin-bottom: 16px; margin-top: 32px;">Description:</h1>
