@@ -47,7 +47,7 @@
 
 - **IK Lock Points** → Lock → Bake → Cleanup (Example: mocap feet fix)
 - **Physics to Keys** → Add Physics → Bake Selected → Remove  
-- **Object Attach** → ChildOf + NLA → Bake motion → Cleanup
+- **Object Attach** → Child Of + NLA → Bake motion → Cleanup
 - **FPS Converter** → 24→60fps + Bezier fix + round keys
 - **F-Curve Cleanup** → Adaptive simplify (error threshold)
 - **And more!** - check full documentation
