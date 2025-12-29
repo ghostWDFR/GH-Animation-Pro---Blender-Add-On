@@ -11,7 +11,7 @@
 
 
 <br><br>
-1. Download `GH Animation Pro` from [Superhive Page](https://superhivemarket.com/creators/ghostwdfr)
+1. Download `GH Animation Pro` from [Superhive Page](https://superhivemarket.com/products/gh-animation-pro)
 2. Blender → **Edit** → **Preferences** → **Add-ons** → **Install**  
 3. Select ZIP → **Install Add-on**
 4. Enable **"GH Animation Pro"**
@@ -60,7 +60,7 @@
 
 ## [Documentation Page](/Tabs/Main%20Menu.md)
 ## [YouTube Tutorials](https://www.youtube.com/@ghostwdfr)
-## [Superhive Page](https://superhivemarket.com/creators/ghostwdfr)
+## [Superhive Page](https://superhivemarket.com/products/gh-animation-pro)
 ## [Demo Videos](/Tabs/Demo%20Videos.md)
 
 </div>
