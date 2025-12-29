@@ -7,7 +7,7 @@
 ## 🛠️ **Installation**
 <details>
 
-<summary>Click to expand installation steps</summary>
+<summary>Click to expand</summary>
 
 <div style="margin-top: 32px; margin-bottom: 32px;">
 
@@ -23,7 +23,7 @@
 
 ## ✅ **Compatibility**
 <details>
-<summary>Click to expand compatibility table</summary>
+<summary>Click to expand</summary>
 
 <div style="margin-top: 32px; margin-bottom: 32px;">
 
@@ -45,6 +45,9 @@
 
 ## ✨ **5 Production Pipelines**
 
+<details>
+<summary>Click to expand</summary>
+
 - **IK Lock Points** → Lock → Bake → Cleanup (Example: mocap feet fix)
 - **Physics to Keys** → Add Physics → Bake Selected → Remove  
 - **Object Attach** → Child Of + NLA → Bake motion → Cleanup
@@ -52,6 +55,7 @@
 - **F-Curve Cleanup** → Adaptive simplify (error threshold)
 - **And more!** - check full documentation
 
+</details>
 
 <div style="margin-top: 32px; margin-bottom: 48px;">
 
