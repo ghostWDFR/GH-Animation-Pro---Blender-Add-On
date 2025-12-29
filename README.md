@@ -4,19 +4,44 @@
 
 > **Add-on version:** 1.0.0
 
-## **Installation**
-1. Download `GH_Animation_Pro_v1.0.0.zip`
-2. Blender → Edit → Preferences → Add-ons → Install  
-3. Select ZIP → Install Add-on
-4. Enable "GH Animation Pro" ✅
-5. N-Panel → `GH Tools` tab → Done!
+## 🛠️ **Installation**
+<details>
 
-## **Compatibility**
+<summary>Click to expand installation steps</summary>
+
+<div style="margin-top: 32px; margin-bottom: 32px;">
+
+1. Download `GH Animation Pro` from Superhive.com
+2. Blender → **Edit** → **Preferences** → **Add-ons** → **Install**  
+3. Select ZIP → **Install Add-on**
+4. Enable **"GH Animation Pro"**
+5. **N-Panel** → `**GH Tools**` tab → **Done!**
+
+</div>
+
+</details>
+
+## ✅ **Compatibility**
+
+<details><summary>Click to expand compatibility table</summary>
+
+<div style="margin-top: 32px; margin-bottom: 32px;">
+
 | Blender | Статус |
 |---------|--------|
 | **3.6 LTS** | ✅ Full |
 | **4.0–4.4** | ✅ Full |
 | **5.0** | ✅ Full |
+
+</div>
+
+<div style="margin-top: 32px; margin-bottom: 32px;">
+
+> **Note:** Due to significant differences across Blender versions, bugs are possible but minimized through safe helper functions.
+
+</div>
+
+</details>
 
 <h1 style="margin-bottom: 16px; margin-top: 32px;">Description:</h1>
 <details>
