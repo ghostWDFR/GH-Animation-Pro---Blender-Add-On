@@ -17,6 +17,14 @@
   - builds a dedicated Action that animates the constraint’s influence over time,
   - and adds an NLA strip on the source object to drive that influence with smooth Blend In/Out values for clean transitions.
 
+<div align="center">
+
+![Object Interactions - Attaching Object to Another Object (Order Correct)](/IMAGES/OI_Object_Attaching.png)
+
+**Object Interactions - Attaching Object to Another Object (Order Correct)**
+
+</div>
+
 <div style="margin-top: 32px; margin-bottom: 64px;">
 
 > **Note:** The last selected object is always treated as the **target**. If it is an armature, it must be in **Pose Mode** with a valid active pose bone, and that bone is used as the constraint’s subtarget while the armature object remains the actual parent; otherwise, the target is a Mesh or Empty. This workflow supports object-to-object, object-to-armature, and object-to-bone-style attachments and remains fully reversible: you can always bake the driven motion into regular keyframes or remove all attachments when they are no longer needed.

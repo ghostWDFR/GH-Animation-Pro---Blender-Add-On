@@ -1,8 +1,14 @@
 [Return to Animation Tools Page](/Tabs/Animation%20Tools.md)
 
-
 # 1. Add Physics Selected
 
+<div align="center" style="margin-top: 32px; margin-bottom: 64px;">
+
+![Animated Physics - Animation Before Physics](/IMAGES/AP_Not_Applied.png)
+
+**Animated Physics - Animation Before Physics**
+
+</div>
 
 **Add Physics Selected** button adds rigid body physics to all selected mesh objects and sets up a simple animated transition from kinematic to simulated at the current frame. Objects stay controlled by keyframes right before the current frame and then hand off to physics starting on the current frame, so the simulation starts from a clean, predictable pose.
 
@@ -22,6 +28,14 @@
 </div>
 
 # 2. Bake Physics Selected
+
+<div align="center" style="margin-top: 32px; margin-bottom: 64px;">
+
+![Animated Physics - Baked Physics into keyframes](/IMAGES/AP_Baked.png)
+
+**Animated Physics - Baked Physics into keyframes**
+
+</div>
 
 **Bake Physics Selected** button converts rigid body simulation on selected mesh objects into regular keyframes over a defined frame range. It bakes the visual motion into each object’s action, then removes the rigid body components and their animation curves so the result is stable, non-simulated animation.
 

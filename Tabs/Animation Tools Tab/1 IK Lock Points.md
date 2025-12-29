@@ -6,11 +6,11 @@
 
 **IK Lock Points – Pose Mode View**
 
+</div>
+
 <div style="margin-top: 32px; margin-bottom: 64px;">
 
 > **Note:** In the screenshot you see all buttons in this section only because an armature and an empty are selected at the same time. Normally, only the valid buttons for the current context are shown: different buttons appear when an empty is selected versus when an armature is active in Pose Mode, so keep this in mind.
-
-</div>
 
 </div>
 
