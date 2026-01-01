@@ -9,7 +9,6 @@
 
 <summary>Click to expand</summary>
 
-
 <br><br>
 1. Download `GH Animation Pro` from [Superhive Page](https://superhivemarket.com/products/gh-animation-pro)
 2. Blender → **Edit** → **Preferences** → **Add-ons** → **Install**  
@@ -18,6 +17,13 @@
 5. **N-Panel** → `**GH Tools**` tab → **Done!**
 <br><br>
 
+<div align="center" style="margin-top: 32px; margin-bottom: 64px;">
+
+![GH Animation Pro - Preferences Page](/IMAGES/GH_Animation_Pro_Preferences.png)
+
+**GH Animation Pro - Preferences Page**
+
+</div>
 
 </details>
 
