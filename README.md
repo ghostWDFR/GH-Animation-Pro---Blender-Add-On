@@ -65,7 +65,7 @@
 <div style="margin-top: 32px; margin-bottom: 48px;">
 
 ## [Documentation Page](/Tabs/Main%20Menu.md)
-## [YouTube Tutorials](https://www.youtube.com/@ghostwdfr)
+## [YouTube Tutorials (Will be available Soon)](https://www.youtube.com/@ghostwdfr)
 ## [Superhive Page](https://superhivemarket.com/products/gh-animation-pro)
 ## [Demo Videos](/Tabs/Demo%20Videos.md)
 
